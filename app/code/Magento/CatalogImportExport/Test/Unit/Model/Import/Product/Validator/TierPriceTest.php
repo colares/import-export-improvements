@@ -19,6 +19,9 @@ class TierPriceTest extends \PHPUnit\Framework\TestCase
     /** @var \Magento\Customer\Api\GroupRepositoryInterface|\PHPUnit_Framework_MockObject_MockObject */
     protected $groupRepositoryInterface;
 
+    /** @var \Magento\Framework\Api\SearchCriteria|\PHPUnit_Framework_MockObject_MockObject */
+    protected $searchCriteriaSearch;
+
     /** @var \Magento\Framework\Api\SearchCriteriaBuilder|\PHPUnit_Framework_MockObject_MockObject */
     protected $searchCriteriaBuilder;
 
